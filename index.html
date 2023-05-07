@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Desafio Oracle</title>
+</head>
+<body>
+
+    <header>
+
+        <div class="logo-container">
+            <a href="https://www.aluracursos.com/challenges/oracle-one/sprint01-construye-un-encriptador-texto-con-javascript">
+            <img src="alura.png" alt="Tu logo">
+            </a>
+        </div>
+
+        <div class="cajatextoChallange">
+            <p class="nombrechallange" >Challange Encriptador</p>
+        </div>
+
+    </header>
+
+    <main>
+
+        <section class="cajatextos">
+
+            <textarea id="entrada" autofocus placeholder="Ingrese texto Aqui"></textarea>
+
+            <textarea name="salida" id="salida" cols="30" rows="10" placeholder="Ningun Mensaje Fue Encontrado 
+
+Ingresa el Texto que desees Encriptar o Desencriptar"></textarea>
+
+                
+            </section>
+            
+            <section class="botones">
+                
+                <button type="button" id="btnencriptar" onclick="encriptar()">Encriptar</button>
+                
+                <button type="button"  id="btndesencriptar" onclick="desencriptar()">Desencriptar</button>
+                
+                <button type="button" id="btnCopiar" onclick="copiar()">Copiar</button>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="logo-container-git">
+            <a href="https://github.com/Zipacna08">
+            <img src="github.png" alt="logo-git">
+            </a>
+        </div>
+
+    </footer>
+
+<script src="app.js"></script>
+
+</body>
+</html>
